@@ -15,7 +15,7 @@ def main():
     "Must be run in Python 3.3 or later. You are running {}".format(sys.version)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_dir', type=str, default='data/scotus',
+    parser.add_argument('--data_dir', type=str, default='data/friends',
                        help='data directory containing input.txt')
     parser.add_argument('--save_dir', type=str, default='models/new_save',
                        help='directory for checkpointed models (load from here if one is already present)')
